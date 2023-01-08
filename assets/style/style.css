@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: -webkit-linear-gradient(top, #00a1fc 50%, #eeeeee 50%);
+}
+
+.logo-icon {
+	max-width: 150px;
+}
+
+.card-img {
+	max-width: 180px;
+}
+
+.card-title {
+	color: #111827;
+}
+
+.card-text {
+	color: #4b5563;
+}
+
+.bg-lightblue {
+	background-color: #00a1fc;
+}
+
+.icons-background {
+	background-color: #6b7280;
+}
+
+.icons-background:hover,
+.bg-lightblue:hover {
+	background-color: purple;
+}
+
+.footer-text {
+	color: #6b7280;
+}
+
+.social-icon {
+	width: 50px;
+	height: 50px;
+}
