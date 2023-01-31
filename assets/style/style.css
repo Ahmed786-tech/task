@@ -107,3 +107,114 @@ border-radius: 20px;
 .why-choose-us .row{
 border-radius: 10px;
 }
+
+.faq .row {
+	border-bottom: 1px solid #CFFAFE;;
+}
+
+
+.faq .row .border-right {
+	border-left: 1px solid #CFFAFE;;
+}
+
+
+.accordion{
+	position: relative;
+  margin: 10px 10px;
+}
+
+.accordion .label {
+	
+	position: relative;
+	padding: 10px 0;
+	font-size: 30px;
+	color: black;
+	cursor: pointer;
+  }
+  .accordion .label::before {
+	font-family: FontAwesome;
+    content: "\f067";
+	color: black;
+	position: absolute;
+	top: 50%;
+	right: -5px;
+	
+	transform: translateY(-50%);
+  }
+  
+  /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+  
+  .accordion .content {
+	position: relative;
+	/* background: white; */
+	height: 0;
+	
+	text-align: justify;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+  }
+  
+  /* Adds a horizontal line between the contents */
+  
+  /* .accordion hr {
+	width: 100;
+	margin-left: 0;
+	border: 1px solid grey;
+  } */
+
+  .accordion.active .content {
+	width: 100%;
+	height: auto;
+	overflow: auto;
+
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion.active .label::before {
+	font-family: FontAwesome;
+    content: "\f00d";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+  }
+
+
+
+
+  .footer-contact-section{
+	background: #164E63;
+  }
+
+  .user-box input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+  }
+  .user-box input::placeholder {
+	
+	color: #fff;
+	
+  }
+   .user-box label {
+	position: absolute;
+	top:0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	pointer-events: none;
+	transition: .5s;
+  }
+
+  .footer-company-info .Copyrights{
+   color: #64748B;	
+  }
+  
