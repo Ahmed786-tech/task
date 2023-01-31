@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -11,105 +15,396 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+	<link rel="stylesheet" href="./assets/style/style.css" />
+</head>
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-			crossorigin="anonymous"
-		/>
-		<title>EZ-AD</title>
-		<link rel="stylesheet" href="./assets/style/style.css" />
-	</head>
-	<body>
-		<header class="container-fluid">
-			<div class="container d-flex justify-content-center py-5">
-				<img class="logo-icon" src="./assets/images/logo.png" alt="" />
-			</div>
-		</header>
-		<main class="row pb-5">
-			<div
-				class="container shadow pb-5 rounded-3 bg-white col-10 col-md-8 col-xl-6"
-			>
-				<div class="d-flex justify-content-center pt-3 pb-2">
-					<img class="card-img" src="./assets/images/dall.png" alt="" />
+<body>
+	<header class="container-fluid">
+		<nav class="navbar navbar-expand-md p-0 py-3">
+			<div class="container d-flex justify-content-between p-0">
+				<a class="navbar-brand fw-bold p-0 m-0" href="#">Uni<span class="nav-logo">Board</span></a>
+				<button class="navbar-toggler border-0 ourline-0" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mx-auto fw-bold p-0 m-0">
+						<li class="nav-item p-0 m-0 py-1 py-md-0 px-md-3 px-xl-4">
+							<a class="nav-link active secondary-text p-0 m-0" aria-current="page"
+								href="index.html">Home</a>
+						</li>
+						<li class="nav-item p-0 m-0 py-1 py-md-0 px-md-3 px-xl-4">
+							<a class="nav-link p-0 m-0 secondary-text" href="/assets/pages/Feature.html">Features</a>
+						</li>
+						<li class="nav-item p-0 m-0 py-1 py-md-0 px-md-3 px-xl-4">
+							<a class="nav-link p-0 m-0 secondary-text"
+								href="/assets/pages/Integration.html">Integrations</a>
+						</li>
+						<li class="nav-item p-0 m-0 py-1 py-md-0 px-md-3 px-xl-4">
+							<a class="nav-link p-0 m-0 secondary-text" href="/assets/pages/File.html">Files</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav profile-menu">
+						<button class="rounded-pill px-5 py-2 my-2 my-md-0">Login</button>
+					</ul>
 				</div>
-				<div class="row mx-auto">
-					<h1
-						class="col-12 card-title p-0 m-0 pb-4 fw-bold fs-3 text-center pt-1"
-					>
-						Dear Customer!
-					</h1>
-					<p
-						class="col-12 col-md-10 col-xl-8 card-text p-0 m-0 text-center pb-4 mx-auto"
-					>
-						I wanted to take this opportunity to congratulate you on this
-						achievement. I know how hard you have worked to reach this milestone
-						and I am so proud of your accomplishment.
-					</p>
-					<div class="pb-5 d-flex justify-content-center">
-						<button
-							class="bg-lightblue rounded-3 border-0 text-light px-2 px-sm-4 py-1 py-sm-2"
-						>
-							<span class="py-1"> Redeem Your Award </span>
+			</div>
+		</nav>
+	</header>
+	<main class="container-fluid">
+		<!-- hero Section -->
+		<section class="container hero-main p-0 my-3">
+			<div class="text-center">
+				<p class="text-uppercase fw-semibold p-0 m-0">Finally,</p>
+				<p class="hero-heading pb-4 m-0">
+					The Best Project Management Solution Has Arrived For Ideal Project
+					Management Communication!
+				</p>
+				<p class="secondary-text fs-5 pb-4 m-0">
+					All of your team’s tasks and assignments in one viewable &
+					<br />shared location.
+				</p>
+
+				<button class="rounded-pill px-4 py-2 my-1 my-md-0">
+					Sign up now
+				</button>
+				<p class="secondary-text fs-6 py-2">No credit card needed to begin</p>
+			</div>
+		</section>
+		<!-- dashboard -->
+		<section>
+			<div class="dashboard-background ">
+				<div class="row">
+					<div class="col-7 mx-auto ">
+						<img class="w-100"
+							src="https://storage.googleapis.com/content.ezadtv.com/2023/01/30/63d7a41544f3f_Screen_1_.webp"
+							alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Project Managment Solution -->
+		<section>
+			<div class=" Project-Managment-Solution  ">
+
+				<div class="container pt-5">
+					<h2 class="text-center fs-1">Project Management <br> Solution</h2>
+					<div class="row align-items-center justify-content-between offset-lg-1">
+						<div class="col-md-12 col-lg-5 pe-0 ps-0 ">
+							<p class="mb-3 p-0 fs-2">Best project management solution?
+							</p>
+							<p class="fs-6">Universal Board is the ideal IT project
+								management
+								solution for your company’s needs, and provides employees and management with a shared
+								system to track all projects and tasks, to the finest detail.</p>
+
+						</div>
+						<div class="col-md-12 col-lg-6  mt-5 mt-lg-0  ps-0 ">
+							<img class="task-updated-img w-100"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/27/63d3b0a02d450_inmg.webp"
+								alt="">
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-between  p-0 pt-0">
+
+						<div class="col-md-12 col-lg-5 ms-5 align-self-start  mt-5 mt-lg-0  ps-0">
+							<img class="task-updated-img w-100"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/27/63d3b05ea9647_Img.webp"
+								alt="">
+						</div>
+						<div class="col-md-12 col-lg-5 ps-5   ">
+							<p class="mb-3 fs-2">Easy-to-use interface?</p>
+							<p class="fs-6">Fast and easy communication in project management
+								is important
+								and easy to grasp within our proprietary interface. Any required platform adjustments
+								are easily achievable for our clients as satisfaction is our highest priority.</p>
+
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-between offset-lg-1">
+						<div class="col-md-12 col-lg-5 pe-0 ps-0 ">
+							<p class="mb-3 fs-2">Fast and efficient customer service?</p>
+							<p class="fs-6">Our project management solution tool allows you to immediately manage or
+								allocate
+								customer inquiries, billing, or tasks, to make sure your customer’s needs are met
+								immediately.</p>
+
+						</div>
+						<div class="col-md-12 col-lg-5  mt-5 mt-lg-0  ps-0 ">
+							<img class="task-updated-img w-100"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/29/63d6a63aa49b1_img.webp"
+								alt="">
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-between  p-0 pt-0">
+
+						<div class="col-md-12 col-lg-5 ms-5 align-self-start  mt-5 mt-lg-0  ps-0">
+							<img class="task-updated-img w-100"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/29/63d6a6dd4c553_img_1_.webp"
+								alt="">
+						</div>
+						<div class="col-md-12 col-lg-5 ps-5   ">
+
+							<p class="mb-3 fs-2">Cross-team collaboration?</p>
+							<p class="fs-6">Designed as a tool for better communication in project management, Universal
+								Board allows
+								teams to work together faster and more efficiently. The ability to share documents,
+								assign tasks or schedule meetings are all easily achieved within seconds..</p>
+
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-between offset-lg-1">
+						<div class="col-md-12 col-lg-5 pe-0 ps-0 ">
+							<p class="mb-3 fs-2">Track all progress?</p>
+							<p class="fs-6">Our intuitive platform allows all team members the ability to plan, manage,
+								and track all
+								projects from start to finish. Dashboards and detailed reports provide real-time updates
+								on such items as group progress, costs, and timelines, while all features can be
+								tailored to client needs.</p>
+
+						</div>
+						<div class="col-md-12 col-lg-5  mt-5 mt-lg-0  ps-0 ">
+							<img class="task-updated-img w-100"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/29/63d6a7d168dcf_img_2_.webp"
+								alt="">
+						</div>
+					</div>
+					<div class="row align-items-center justify-content-between  p-0 pt-0">
+
+						<div class="col-md-12 col-lg-5 ms-5 align-self-start  mt-5 mt-lg-0  ps-0">
+							<img class="task-updated-img w-75"
+								src="https://storage.googleapis.com/content.ezadtv.com/2023/01/29/63d6a82cb3868_Integration.webp"
+								alt="">
+						</div>
+						<div class="col-md-12 col-lg-5 ps-5   ">
+
+							<p class="mb-3 fs-2">Platform integration?</p>
+							<p class="fs-6">With Slack integration, you can easily assign tasks, create checklists, and
+								monitor
+								progress from within your Slack channels. Project management communication is now
+								simplified with a user-friendly interface and immediate collaboration.</p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="mt-5 pt-4 pb-2 bottom">
+					<div class="d-flex justify-content-center">
+						<button class="rounded-pill px-4 py-2 my-1 my-md-0">
+							Sign up now
 						</button>
 					</div>
+					<div class="text-center">
+					<p class="secondary-text fs-6 py-2">No credit card needed to begin</p>
+				</div>
 				</div>
 			</div>
-		</main>
-		<footer class="container-fluid row">
-			<div class="row container mx-auto py-5 mt-4 col-10 col-md-8 col-xl-6">
-				<div
-					class="col-12 col-sm-10 col-md-8 col-xl-6 col-xxl-4 d-flex justify-content-around mx-auto"
-				>
-					<div
-						role="button"
-						class="rounded-circle d-flex justify-content-center align-items-center icons-background social-icon p-0 m-0 p-md-2"
-					>
-						<a class="text-white fs-2" href="#">
-							<i class="fa-brands fa-instagram"></i>
-						</a>
-					</div>
 
-					<div
-						role="button"
-						class="rounded-circle d-flex justify-content-center align-items-center icons-background social-icon p-0 m-0 p-md-2"
-					>
-						<a class="text-white fs-2" href="#">
-							<i class="fa-brands fa-youtube"></i>
-						</a>
-					</div>
-					<div
-						role="button"
-						class="rounded-circle d-flex justify-content-center align-items-center icons-background social-icon p-0 m-0 p-md-2"
-					>
-						<a class="text-white fs-2" href="#">
-							<i class="fa-brands fa-facebook-f"></i>
-						</a>
-					</div>
-					<div
-						role="button"
-						class="rounded-circle d-flex justify-content-center align-items-center icons-background social-icon p-0 m-0 p-md-2"
-					>
-						<a class="text-white fs-2" href="#">
-							<i class="fa-brands fa-twitter"></i>
-						</a>
-					</div>
+
+		</section>
+
+		<!-- pricing section -->
+		<section>
+			<div class="container">
+			<div class="row justify-content-between pt-4">
+				<div class="col-2">
+					<p class="fs-5">See Pricing</p>
 				</div>
-				<div class="row col-12 col-sm-10 col-md-10 col-xl-12 mx-auto">
-					<p class="col-xl-8 mx-auto p-0 footer-text m-0 text-center pt-3">
-						Praesent lectus purus, pharetra at hendrerit non, commodo maximus
-						nisl. ultrices tellus, ac porttitor purus.
-						<span class="fw-bold"> Unsubscribe</span>
-					</p>
+				<div class="col-7">
+					<p class="fs-5">“A custom task board that can fit into your Custom Software Development Lifecycle”</p>
 				</div>
 			</div>
-		</footer>
+			<div>
+				<table class="table ">
+					<thead>
+					  <tr>
+						<th scope="col"></th>
+						<th scope="col">Features</th>
+						<th scope="col">Free</th>
+						<th scope="col">Standard</th>
+						<th scope="col">Premium</th>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-			crossorigin="anonymous"
-		></script>
-	</body>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<th scope="row">1</th>
+						<td>Built in Automation</td>
+						<td><i class="fa fa-check"></i></td>
+						<td><i class="fa fa-check"></i></td>
+						<td><i class="fa fa-check"></i></td>
+					  </tr>
+					  <tr>
+						<th scope="row">2</th>
+						<td>Desktop App</td>
+						<td><i class="fa fa-check"></i></td>
+						<td><i class="fa fa-check"></i></td>
+						<td><i class="fa fa-check"></i></td>
+
+					  </tr>
+					  <tr>
+						<th scope="row">3</th>
+						<td>Assignee & Due Dates</td>
+						<td><i class="fa fa-lock"></i></td>
+						<td><i class="fa fa-check"></i></td>
+						<td><i class="fa fa-check"></i></td>
+					  </tr>
+					  <tr>
+						<th scope="row">4</th>
+						<td >Advance Security</td>
+						<td><i class="fa fa-lock"></i></td>
+						<td><i class="fa fa-lock"></i></td>
+						<td><i class="fa fa-check"></i></td>
+					  </tr>
+					</tbody>
+				  </table>
+			</div>
+		</div>
+		</section>
+
+		<!-- FAQ -->
+		<section class="faq-background" >
+			<div class="container py-4">
+           <p class="fs-3 text-secondary">FAQ</p>
+           <p class="fs-1">Frequently Asked Questions</p>
+
+		   <div class="accordion accordion-flush" id="accordionFlushExample">
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingOne">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+				  Accordion Item #1
+				</button>
+			  </h2>
+			  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingTwo">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+				  Accordion Item #2
+				</button>
+			  </h2>
+			  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+			  </div>
+			</div>
+			<div class="accordion-item">
+			  <h2 class="accordion-header" id="flush-headingThree">
+				<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+				  Accordion Item #3
+				</button>
+			  </h2>
+			  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+				<div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+			  </div>
+			</div>
+		  </div>
+
+			</div>
+		</section>
+
+		<!-- why choose us -->
+	
+		<section>
+			<div class="container">
+			<div class="row justify-content-between pt-4">
+				<div class="col-2">
+					<p class="fs-3">Why Choose Us</p>
+				</div>
+				<div class="col-7">
+					<p class="fs-3">Here at EZ-AD, proving ourselves to our clients is our biggest priority. We’ll price match any competitor!</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-11 mx-auto why-choose-us">
+					<div class="row justify-content-around">
+                      <div class="col-4 col-md-3 col-xl-2"><p>Companies</p></div>
+					  <div class="col-4 col-md-3 col-xl-2"><p>Monthly Membership</p></div>
+						<div class="col-4 col-md-3 col-xl-2"><p>Customization</p></div>
+
+					</div>
+					<div class="row justify-content-around">
+						<div class="col-4 col-md-3 col-xl-2"><p>Click up</p></div>
+						<div class="col-4 col-md-3 col-xl-2"><p>$5/seat</p></div>
+						  <div class="col-4 col-md-3 col-xl-2"><span><i class="fa fa-xmark"></i></span></div>
+  
+					  </div>
+					  <div class="row justify-content-around">
+						<div class="col-4 col-md-3 col-xl-2"><p>JIRA</p></div>
+						<div class="col-4 col-md-3 col-xl-2"><p>$7.75/seat</p></div>
+						  <div class="col-4 col-md-3 col-xl-2"><span><i class="fa fa-xmark"></i></span></div>
+  
+					  </div>
+					  <div class="row justify-content-around">
+						<div class="col-4 col-md-3 col-xl-2"><p>Monday.com</p></div>
+						<div class="col-4 col-md-3 col-xl-2"><p>$8/seat</p></div>
+						  <div class="col-4 col-md-3 col-xl-2"><span><i class="fa fa-xmark"></i></span></div>
+  
+					  </div>
+					  <div class="row justify-content-around">
+						<div class="col-4 col-md-3 col-xl-2"><p>Trello</p></div>
+						<div class="col-4 col-md-3 col-xl-2"><p>$5/seat</p></div>
+						  <div class="col-4 col-md-3 col-xl-2"><span><i class="fa fa-xmark"></i></span></div>
+  
+					  </div>
+					<!-- <table class="table ">
+						<thead>
+						  <tr>
+							<th scope="col">Companies</th>
+							<th scope="col">Monthly Membership</th>
+							<th scope="col">Customization</th>
+							
+	
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td >Universal Board</td>
+							<td>$4/seat</td>
+							<td><i class="fa fa-check"></i></td>
+							
+						  </tr>
+						  <tr>
+							<td>Click up</td>
+							<td>$5/seat</td>
+							<td><i class="fa fa-xmark"></i></td>
+							
+	
+						  </tr>
+						  <tr>
+							<td>JIRA</td>
+							<td>$7.75/seat</td>
+							<td><i class="fa fa-xmark"></i></td>
+							
+						  </tr>
+						  <tr>
+							<td>Monday.com</td>
+							<td >$8/seat</td>
+							<td><i class="fa fa-xmark"></i></td>
+							
+						  </tr>
+						  <tr>
+							<td>Trello</td>
+							<td >$5/seat</td>
+							<td><i class="fa fa-xmark"></i></td>
+							
+						  </tr>
+						</tbody>
+					  </table> -->
+				</div>
+				
+			</div>
+		</div>
+		</section>
+	</main>
+	<footer class="footer"></footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
