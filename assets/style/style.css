@@ -98,11 +98,12 @@ box-shadow: 0px 0px 40px 28px rgba(59, 130, 246, 0.02);
 border-radius: 0px 0px 20px 20px;
 }
 
-.faq-background{
-	background: #ECFEFF;
-box-shadow: 0px 0px 40px 28px rgba(59, 130, 246, 0.02);
-border-radius: 20px;
+.pricing-table table tbody > tr:last-child > td{
+	border-bottom: 0;
 }
+
+
+
 
 .why-choose-us .row-uniboard{
 	background: #FFFFFF;
@@ -126,12 +127,34 @@ border-radius: 20px;
 }
 
 .faq .row {
-	border-bottom: 1px solid #CFFAFE;;
+	border-bottom: 1px solid #CFFAFE;
+	
 }
 
 
 .faq .row .border-right {
-	border-left: 1px solid #CFFAFE;;
+	border-left: 1px solid #CFFAFE;
+}
+
+
+.faq-background{
+	background: #ECFEFF;
+box-shadow: 0px 0px 40px 28px rgba(59, 130, 246, 0.02);
+border-radius: 20px;
+}
+
+.faq p{
+	margin-bottom: 0;
+	
+}
+
+.faq-last-row{
+	margin-bottom: 0;
+
+}
+
+.faq-last-row .row .border-right {
+	border-left: 1px solid #CFFAFE;
 }
 
 
