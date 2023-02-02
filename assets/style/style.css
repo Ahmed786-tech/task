@@ -4,6 +4,7 @@
 	--dark--: #111827;
 	--primary--: #06b6d4;
 	--secondary--: #6b7280;
+	
 
 	/* font-family */
 	--dm-sans--: 'DM Sans', sans-serif;
@@ -15,6 +16,7 @@
 	padding: 0px;
 	margin: 0px;
 	font-size: 16px;
+	
 }
 
 body {
@@ -103,6 +105,16 @@ border-radius: 0px 0px 20px 20px;
 }
 
 
+.pricing-table table thead > tr th{
+	padding: 20px 0px 20px 0px;
+}
+
+.pricing-table table tbody > tr td{
+	padding: 20px 0px 20px 0px;
+}
+
+
+
 
 
 .why-choose-us .row-uniboard{
@@ -110,12 +122,17 @@ border-radius: 0px 0px 20px 20px;
 	border: 1px solid #5EEAD4;
 	box-shadow: 0px 12px 40px rgba(59, 130, 246, 0.12);
 	border-radius: 12px;
-	padding: 15px;
+	padding: 20px 0px 20px 0px;
 }
 
 .why-choose-us .row-others{
 	border-bottom: 1px solid #E5E7EB;
-	padding: 15px;
+	padding: 20px 0px 20px 0px;
+	
+}
+.why-choose-us .last-row{
+	
+	padding: 20px 0px 20px 0px;
 	
 }
 
@@ -150,7 +167,6 @@ border-radius: 20px;
 
 .faq-last-row{
 	margin-bottom: 0;
-
 }
 
 .faq-last-row .row .border-right {
@@ -160,7 +176,7 @@ border-radius: 20px;
 
 .accordion{
 	position: relative;
-  margin: 10px 10px;
+  margin: 30px 30px;
 }
 
 .accordion .label {
