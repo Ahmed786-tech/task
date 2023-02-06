@@ -74,7 +74,12 @@ button {
 .secondary-text {
 	color: var(--secondary--) !important;
 }
-
+.hero-main-background-img{
+	background-image: url("https://storage.googleapis.com/content.ezadtv.com/2023/02/06/63e129e8265ab_Select.webp");
+	background-repeat: no-repeat;
+	background-position: 31% 4%;
+    background-size: 21% 38%;
+}
 .hero-caption {
 	font-size: 1;
 }
@@ -203,11 +208,9 @@ button {
 	transform: translateY(-50%);
 }
 
-/* Hides the content (height: 0), decreases font size, justifies text and adds transition */
-
 .accordion .content {
 	position: relative;
-	/* background: white; */
+	
 	height: 0;
 
 	text-align: justify;
@@ -216,13 +219,6 @@ button {
 	transition: 0.5s;
 }
 
-/* Adds a horizontal line between the contents */
-
-/* .accordion hr {
-	width: 100;
-	margin-left: 0;
-	border: 1px solid grey;
-  } */
 
 .accordion.active .content {
 	width: 100%;
@@ -231,7 +227,6 @@ button {
 
 }
 
-/* Changes from plus sign to negative sign once active */
 
 .accordion.active .label::before {
 	font-family: FontAwesome;
@@ -281,16 +276,14 @@ button {
 	color: #64748B;
 }
 
-/* .privacy_policy{
-	color: ;
-  } */
 
 
 
 /* features section start */
 .features-description {
-	height: 550px;
-	overflow: scroll;
+	height: 660px;
+	overflow-y: auto;
+	scroll-behavior: smooth;
 }
 
 .features-headings ul {
@@ -299,7 +292,7 @@ button {
 
 .features-headings ul li {
 	list-style: none;
-	padding: 16px 0px;
+	padding: 12px 0px;
 	color: var(--secondary--) !important;
 
 	padding-right: 0;
@@ -310,31 +303,15 @@ button {
 	font-weight: 700;
 	color: var(--secondary--) !important;
 	font-size: 20px;
-	font-style: normal;
+	padding: 16px;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: var(--primary--) !important;
-
 	background-color: #ECFEFF;
 }
 
-/* ul li a:active{
-		background: #ECFEFF;
-		border-radius: 10px;
-		padding: 16px 24px;
-        color: var(--primary--) !important;
-		} */
-
-/* .active {
-		background: #ECFEFF;
-		border-radius: 10px;
-		padding: 16px 24px;
-        color: var(--primary--) !important;
-
-
-		  } */
 
 
 
@@ -363,22 +340,65 @@ button {
 /* features section end */
 
 /* integration section start */
-.card1{
-	padding: 24px;
-	background: #FFFFFF;
-/* Drop Shadow */
+.integration-hero-background-img{
+	background-image: url("https://storage.googleapis.com/content.ezadtv.com/2023/02/06/63e129e8265ab_Select.webp");
+	background-repeat: no-repeat;
+	background-position: 23% 3%;
+    background-size: 35% 27%;
 
+}
+.integration-card{
+padding: 24px;
+background: #FFFFFF;
 box-shadow: 0px 12px 40px rgba(59, 130, 246, 0.12);
 border-radius: 20px;
+
+width: 296px;
+height: 265px;
 }
- .card1 .img-card{
+ .integration-card .img-card{
 width: 96px;
 height: 96px;
 background: #FFFFFF;
-/* Drop Shadow */
 box-shadow: 0px 12px 40px rgba(59, 130, 246, 0.12);
 border-radius: 20px;
+ }
 
+ .integration-card p {
+	font-size: 14px;
+ }
+
+ .integration_tabs .nav-item {
+	padding: 0px 15px 0px 15px;
+ }
+
+ .integration_tabs .nav-item .nav-link{
+	padding: 15px 0px 15px 0px;;
+ }
+
+ .integration_tabs .nav-item> .active{
+	
+	display: block;
+	position: relative;
+	width: auto;
+	border-bottom: 3px solid #14B8A6;
+ }
+
+ .integration-trail{
+	background: #ECFDF5;
+border-radius: 20px;
+margin: 64px 0px 64px 0px;
+ }
+
+ /* integration section end */
+
+
+ /* file section start */
+ .files-hero-background-img{
+	background-image: url("https://storage.googleapis.com/content.ezadtv.com/2023/02/06/63e129e8265ab_Select.webp");
+	background-repeat: no-repeat;
+	background-position: 0% 12%;
+    background-size: 35% 27%;
  }
 
 
