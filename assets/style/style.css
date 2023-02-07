@@ -21,6 +21,7 @@
 
 body {
 	font-family: var(--dm-sans--);
+	margin-top: 100px;
 }
 
 .profile-menu .dropdown-menu {
@@ -39,6 +40,10 @@ body {
 
 .dark-text {
 	color: var(--dark--);
+}
+.navbar{
+	background-color: #fff;
+
 }
 
 .nav-logo {
@@ -108,18 +113,21 @@ button {
 	border-radius: 0px 0px 20px 20px;
 }
 
-.pricing-table table tbody>tr:last-child>td {
+ .pricing-table table tbody>tr:last-child>td {
 	border-bottom: 0;
 }
 
 
 .pricing-table table thead>tr th {
-	padding: 20px 0px 20px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-.pricing-table table tbody>tr td {
-	padding: 20px 0px 20px 0px;
-}
+ .pricing-table table tbody>tr td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+} 
+
 
 
 
@@ -217,6 +225,7 @@ button {
 	width: 100%;
 	overflow: hidden;
 	transition: 0.5s;
+	max-width: 868px;
 }
 
 
@@ -418,7 +427,8 @@ margin: 64px 0px 64px 0px;
 	position: absolute;
 	width: 0px;
 	border: 1px dashed #14B8A6;
-
+     border-style: dashed;
+	
 	top: 0;
 	bottom: 0;
 	left: 50%;
@@ -449,17 +459,29 @@ margin: 64px 0px 64px 0px;
   .left {
 	padding: 0px 40px 20px 0px;
 	left: 0;
+	height: 190px;
   }
   
   /* Place the container to the right */
   .right {
 	padding: 0px 0px 20px 40px;
 	left: 50%;
+	height: 190px;
+  }
+
+  .right-last {
+	padding: 0px 0px 20px 40px;
+	left: 50%;
+	height: 140px;
   }
   
   
   /* Fix the circle for containers on the right side */
   .right::after {
+	left: -7px;
+  }
+
+  .right-last::after {
 	left: -7px;
   }
   
@@ -488,7 +510,10 @@ margin: 64px 0px 64px 0px;
 	/* Make sure all circles are at the same spot */
 	.left::after,
 	.right::after {
-	  left: 18px;
+	  left: 24px;
+	}
+	.right-last::after{
+		left: 24px;
 	}
   
 	.left::before {
@@ -498,7 +523,17 @@ margin: 64px 0px 64px 0px;
 	/* Make all right containers behave like the left ones */
 	.right {
 	  left: 0%;
+	  height: auto;
 	}
+	.right-last{
+		left: 0%;
+	  height: auto;
+	}
+	.left{
+		height: auto;
+	}
+
+	
   }
 
 
@@ -511,4 +546,24 @@ margin: 64px 0px 64px 0px;
 		white-space: nowrap;
 		font-size: 12px !important;
 	} 
+
+	.hero-main-background-img{
+			background-position: 24% 6%;
+    background-size: 26% 21%;
+	}
+	.integration-hero-background-img{
+		
+		background-position: 23% 3%;
+		background-size: 35% 27%;
+	
+	}
+}
+
+
+@media only screen and (max-width:477px) {
+
+	.hero-main-background-img{
+		background-position: 24% 6%;
+		background-size: 26% 15%;
+	}
 }
