@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;600&family=Poppins&display=swap');
-
 :root {
 	--dark--: #111827;
 	--primary--: #06b6d4;
@@ -352,9 +350,8 @@ button {
 
 }
 
-
-
 /* features section end */
+
 
 /* integration section start */
 .integration-hero-background-img {
@@ -489,6 +486,155 @@ button {
 	left: -7px;
 }
 
+@media only screen and (max-width:1400px) {
+
+
+	.integration-page-hero-img {
+		height: 470px;
+		width: 464px;
+	}
+
+	.files-hero-img {
+		height: 380px;
+		width: 584px;
+	}
+
+
+
+}
+
+@media only screen and (max-width:1200px) {
+	.task-updated-img {
+		height: 350px;
+		width: 417px;
+	}
+
+	.fast-and-efficient-img {
+		height: 300px;
+		width: 350px;
+	}
+
+	.progress-img {
+		width: 399px;
+		height: 280px;
+	}
+
+	.integration-page-hero-img {
+		height: 400px;
+		width: 383px;
+	}
+
+	.files-hero-img {
+		height: 325px;
+		width: 498px;
+	}
+
+
+
+}
+
+@media only screen and (max-width:992px) {
+	.task-updated-img {
+		height: 300px;
+		width: 375px;
+	}
+
+	.inprogress-img {
+		height: 293px;
+		width: 336px;
+	}
+
+	.fast-and-efficient-img {
+		height: 286px;
+		width: 330px;
+	}
+
+	.cross-team-img {
+		height: 181px;
+		width: 315px;
+	}
+
+	.progress-img {
+		height: 239px;
+		width: 320px;
+		margin-left: 30px;
+	}
+
+	.platform-img {
+		height: 250px;
+		width: 228px;
+	}
+
+	.files-hero-img {
+		height: 380px;
+		width: 584px;
+	}
+
+
+}
+
+@media only screen and (max-width:767px) {
+	.dashboard-img {
+		height: 364px;
+		width: 540px;
+	}
+
+	.task-updated-img {
+		height: 351px;
+		width: 440px;
+	}
+
+	.inprogress-img {
+		height: 343px;
+		width: 440px;
+	}
+
+	.fast-and-efficient-img {
+		height: 286px;
+		width: 330px;
+	}
+
+	.cross-team-img {
+		height: 199px;
+		width: 399px;
+	}
+
+	.progress-img {
+		height: 300px;
+		width: 400px;
+	}
+
+	.platform-img {
+		height: 310px;
+		width: 280px;
+	}
+
+	.files-hero-img {
+		height: 325px;
+		width: 498px;
+	}
+
+	.nav-main {
+		overflow-x: auto;
+	}
+
+	.nav-main li a {
+		white-space: nowrap;
+		font-size: 12px !important;
+	}
+
+	.hero-main-background-img {
+		background-position: 24% 6%;
+		background-size: 26% 21%;
+	}
+
+	.integration-hero-background-img {
+		background-position: 23% 3%;
+		background-size: 35% 27%;
+
+	}
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 
@@ -545,28 +691,16 @@ button {
 }
 
 
+@media only screen and (max-width:550px) {
 
-@media only screen and (max-width:767px) {
-	.nav-main {
-		overflow-x: auto;
-	}
-
-	.nav-main li a {
-		white-space: nowrap;
-		font-size: 12px !important;
-	}
-
-	.hero-main-background-img {
-		background-position: 24% 6%;
-		background-size: 26% 21%;
-	}
-
-	.integration-hero-background-img {
-		background-position: 23% 3%;
-		background-size: 35% 27%;
-
+	.dashboard-img {
+		width: 450px;
+		height: 300px;
 	}
 }
+
+
+
 
 
 @media only screen and (max-width:477px) {
@@ -574,5 +708,54 @@ button {
 	.hero-main-background-img {
 		background-position: 24% 6%;
 		background-size: 26% 15%;
+	}
+
+	.dashboard-img {
+		width: 375px;
+		height: 250px;
+	}
+
+	.task-updated-img {
+		height: 300px;
+		width: 375px;
+	}
+
+	.inprogress-img {
+		height: 293px;
+		width: 336px;
+	}
+
+	.platform-img {
+		height: 250px;
+		width: 228px;
+	}
+
+	.integration-page-hero-img {
+		height: 292px;
+		width: 288px;
+	}
+
+	.files-hero-img {
+		height: 267px;
+		width: 420px;
+	}
+}
+
+@media only screen and (max-width:400px) {
+
+
+	.task-updated-img {
+		height: 280px;
+		width: 340px;
+	}
+
+	.progress-img {
+		height: 239px;
+		width: 320px;
+	}
+
+	.files-hero-img {
+		height: 230px;
+		width: 360px;
 	}
 }
