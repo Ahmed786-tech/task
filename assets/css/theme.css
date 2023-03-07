@@ -16294,36 +16294,96 @@ opacity: 0.08;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .dashboardBgCircle::before{
-    width: 600px;
-    height: 601px;
-    left: 20px;
-    top: -40px;
+    width: 370px;
+    height: 361px;
+    left: 33px;
+    top: -62px;
     }
     .laptop_bg_circle::before{
   
       
-      top: 60px;
-      left: 195px;
-    width: 350px;
-    height: 500px;
+      top: 70px;
+      left: 220px;
+      width: 350px;
+      height: 521px;
     
    
     }
     .step2_bg_img::before{
       
-      top: 83px;
+      top: 28px;
     left: -25px;
-    width: 227px;
-    height: 320px;
+    width: 181px;
+    height: 257px;
       
     }
     .step2_bg_img::after{
-      top: 18px;
-    right: -20px;
-    width: 264px;
-    height: 343px;
+      top: 21px;
+    right: -27px;
+    width: 133px;
+    height: 200px;
+    }
+
+    .stuuning_visuals_img::before{
+      top: 90px;
+    left: -26px;
+    width: 232px;
+    height: 333px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -49px;
+      right: -26px;
+      width: 232px;
+      height: 333px;
+      
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+  .dashboardBgCircle::before{
+    width: 340px;
+    height: 341px;
+    left: 32px;
+    top: -66px;
+    }
+    .laptop_bg_circle::before{
+      top: 60px;
+      left: 195px;
+    width: 350px;
+    height: 500px;
+    }
+    .step2_bg_img::before{
+      
+      top: 16px;
+      left: -25px;
+      width: 181px;
+      height: 245px;
+      
+    }
+    .step2_bg_img::after{
+      top: 0px;
+      right: -25px;
+      width: 181px;
+      height: 220px;
+    }
+
+    .stuuning_visuals_img::before{
+      top: 51px;
+    left: -26px;
+    width: 232px;
+    height: 333px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -49px;
+      right: -26px;
+      width: 232px;
+      height: 333px;
+      
     }
     
 }
@@ -16341,6 +16401,8 @@ opacity: 0.08;
     width: 300px;
     height: 400px;
     }
+
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -16384,6 +16446,106 @@ opacity: 0.08;
     width: 210px;
     height: 300px;
     }
+    .step2_bg_img::before{
+      
+      top: 88px;
+      left: -25px;
+      width: 138px;
+      height: 193px;
+      
+    }
+    .step2_bg_img::after{
+      top: 38px;
+    right: -39px;
+    width: 140px;
+    height: 200px;
+    }
+
+    .stuuning_visuals_img::before{
+      top: 102px;
+    left: -37px;
+    width: 213px;
+    height: 327px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -39px;
+    right: -29px;
+    width: 213px;
+    height: 327px;
+      
+    }
+}
+@media screen and (max-width: 412px) {
+  .dashboardBgCircle::before{
+    width: 370px;
+    height: 371px;
+    left: -5px;
+    top: -40px;
+    }
+    .laptop_bg_circle::before{
+      top: 60px;
+      left: 97px;
+    width: 210px;
+    height: 300px;
+    }
+    .step2_bg_img::before{
+      
+      top: 88px;
+      left: -25px;
+      width: 138px;
+      height: 193px;
+      
+    }
+    .step2_bg_img::after{
+      top: 38px;
+    right: -39px;
+    width: 140px;
+    height: 200px;
+    }
+}
+@media screen and (max-width: 393px) {
+  .dashboardBgCircle::before{
+    width: 370px;
+    height: 371px;
+    left: -5px;
+    top: -40px;
+    }
+    .laptop_bg_circle::before{
+      top: 69px;
+    left: 100px;
+    width: 186px;
+    height: 281px;
+    }
+    .step2_bg_img::before{
+      
+      top: 82px;
+    left: -13px;
+    width: 138px;
+    height: 193px;
+      
+    }
+    .step2_bg_img::after{
+      top: 30px;
+    right: -30px;
+    width: 140px;
+    height: 200px;
+    }
+
+    .stuuning_visuals_img::before{
+      top: 85px;
+    left: -37px;
+    width: 213px;
+    height: 327px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -39px;
+    right: -29px;
+    width: 213px;
+    height: 327px;
+      
+    }
 }
 @media screen and (max-width: 375px) {
   .dashboardBgCircle::before{
@@ -16397,5 +16559,63 @@ opacity: 0.08;
       left: 90px;
     width: 190px;
     height: 275px;
+    }
+    .step2_bg_img::before{
+      
+      top: 69px;
+    left: -13px;
+    width: 141px;
+    height: 193px;
+      
+    }
+    .step2_bg_img::after{
+      top: 22px;
+      right: -26px;
+      width: 140px;
+      height: 200px;
+    }
+
+    .stuuning_visuals_img::before{
+      top: 64px;
+    left: -37px;
+    width: 213px;
+    height: 327px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -39px;
+    right: -29px;
+    width: 213px;
+    height: 327px;
+      
+    }
+}
+
+@media screen and (max-width: 360px) {
+  .dashboardBgCircle::before{
+    width: 350px;
+    height: 351px;
+    left: -5px;
+    top: -40px;
+    }
+    .laptop_bg_circle::before{
+      top: 70px;
+    left: 91px;
+    width: 162px;
+    height: 258px;
+    }
+    .stuuning_visuals_img::before{
+      top: 50px;
+    left: -37px;
+    width: 213px;
+    height: 327px;
+    }
+    .stuuning_visuals_img::after{
+    
+      top: -39px;
+    right: -29px;
+    width: 213px;
+    height: 327px;
+      
     }
 }
