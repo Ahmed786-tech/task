@@ -1,0 +1,89 @@
+body{
+    font-family: "Lato",sans-serif; 
+}
+
+.privacy-header{
+    background: linear-gradient(103.12deg, #3ECE3D -80.06%, #026CA7 157.52%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+    border: 0;
+    border-radius: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .privacy-header .privacy-title{
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 26px;
+      padding-top: 10px;
+      color: #fff;
+  }
+  .privacy-header p {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .privacy-page-body{
+    padding: 30px 30px 50px;
+  }
+
+  .privacy-page-body p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  
+  .privacy-page-body .medium-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .privacy-page-body ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 35px;
+  }
+  .privacy-page-body ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #22A06F;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .privacy-page-body .small-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .privacy-page-body table{
+    background-color: #FDFDFD;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 8%), 0px 0px 1px rgb(67 90 111 / 47%);
+    border-radius: 8px;
+    margin-bottom: 35px;
+   
+  }
+  .privacy-page-body table th{
+    padding: 20px;
+  }
+  .privacy-page-body table td{
+    padding: 20px;
+  }
+  .privacy-footer{
+    background-color: #25B953;
+    color: #fff;
+    padding: 25px 53px 25px 30px;
+  }

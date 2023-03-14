@@ -16232,6 +16232,8 @@ opacity: 0.08;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.55) var(--buffered-width), rgba(255, 255, 255, 0.3) var(--buffered-width));
 }
 
+
+
 @media screen and (max-width: 1200px) {
   .dashboardBgCircle::before{
     width: 500px;
